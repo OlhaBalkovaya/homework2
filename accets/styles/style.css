@@ -1,0 +1,24 @@
+body {
+  margin:0;
+  color: #926239;
+}
+
+.backrd {
+  background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  padding-top: 15vw;
+  margin-top: 0;
+}
+
+p {
+  
+
+}]
