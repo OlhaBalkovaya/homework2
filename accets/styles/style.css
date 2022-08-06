@@ -1,19 +1,19 @@
 body {
   margin:0;
-  color: #926239;
 }
 
 .backrd {
   background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
   background-position: center;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   margin: 0;
 }
 
-h1,p,button {
+header {
   text-align: center;
+  color: #926239;
 }
 
 h1 {
@@ -21,8 +21,16 @@ h1 {
   margin-top: 0;
 }
 
-button {
+.button1 {
   background-color: rgba(28,28,28,0);
   padding: 15px 32px;
-  margin-left: 43vw;
+  border: 1px solid #926239;
+  border-radius: 10px;
+  color: #926239;
+}
+
+.button1:hover {
+  background-color: #926239 ;
+  color: white;
+  padding: 15px 32px;
 }
