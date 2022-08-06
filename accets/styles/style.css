@@ -12,13 +12,17 @@ body {
   margin: 0;
 }
 
-h1{
+h1,p,button {
   text-align: center;
+}
+
+h1 {
   padding-top: 15vw;
   margin-top: 0;
 }
 
-p {
-  
-
-}]
+button {
+  background-color: rgba(28,28,28,0);
+  padding: 15px 32px;
+  margin-left: 43vw;
+}
