@@ -1,5 +1,7 @@
-body {
-  margin:0;
+*{
+  margin: 0;
+  line-height: 1.6;
+  font-family: 'Arial';
 }
 
 .backrd {
@@ -12,25 +14,60 @@ body {
 }
 
 header {
-  text-align: center;
   color: #926239;
+  text-align: center;
 }
 
 h1 {
-  padding-top: 15vw;
-  margin-top: 0;
+  padding-top: 18vw;
+  font-size: 50px;
+}
+
+.p1 {
+  font-size: 20px;
+  padding-top: -5px ;
+  padding-bottom: 20px ;
 }
 
 .button1 {
   background-color: rgba(28,28,28,0);
-  padding: 15px 32px;
+  padding: 10px 15px;
   border: 1px solid #926239;
   border-radius: 10px;
   color: #926239;
+  /*margin-top: 10px;*/
+  font-size: 20px;
 }
 
 .button1:hover {
   background-color: #926239 ;
   color: white;
-  padding: 15px 32px;
+}
+
+.sect4, .section1 {
+  background-color: #926239 ;
+  color: white;
+}
+.section1,.section2 {
+  text-align: center;
+}
+
+.section2 {
+  background-color:rgb(240, 240, 246) ;
+  color: #926239 ;
+}
+
+.sect3 {
+  background-color:white ;
+  color: #926239 ;
+}
+
+.sect4,.sect3 {
+  text-align: left;
+  display: inline-block;
+  width: 30.7vw;
+}
+.sect4,.sect3,.section1,.section2 {
+  padding: 15px;
+  font-size: 15px;
 }
