@@ -1,69 +1,69 @@
 *{
+  box-sizing: border-box;
   margin: 0;
   line-height: 1.6;
-  font-family: Arial, Helvetica, sans-serif
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif ;
+  --general-color: #926239;
+  --concom-color:  white;
 }
 
 .backrd {
-  background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
+  background-image: url(../images/bagckround-img.jpg);
   background-position: center;
   background-size: cover;
-  width: 100%;
+  background-repeat: no-repeat;
   min-height: 100vh;
+  color:var(--general-color);
+  padding-top: 35vh;
 }
 
-.forheader {
-  color: #926239;
-  text-align: center;
-}
 
-h1 {
-  padding-top: 18vw;
-  font-size: 50px;
-}
-
-.p1 {
+.concomitant-header-text {
   font-size: 20px;
-  padding-top: -5px ;
-  padding-bottom: 20px ;
+  line-height: 1.2 ;
 }
 
-.button1 {
-  background-color: rgba(28,28,28,0);
+.button-header {
+  background-color: transparent;
+  margin: 20px;
   padding: 10px 15px;
-  border: 1px solid #926239;
+  border: 1px solid var(--general-color);
   border-radius: 10px;
-  color: #926239;
+  color:var(--general-color);
   font-size: 20px;
 }
 
-.button1:hover {
-  background-color: #926239 ;
-  color: white;
+.button-header:hover,
+.pouring1 {
+  background-color:var(--general-color); 
+  color: var(--concom-color);
 }
 
-.section1 {
-  background-color: #926239 ;
-  color: white;
+.pouring2 {
+  background-color: var(--concom-color);
+  color: var(--general-color);
 }
 
-.sect4 {
+.small-sect {
   text-align: left;
   display: inline-block;
-  max-width: 33.33vw;
-  margin: -5px;
+  max-width: 33.33%;
 }
 
-.section2 {
-  background-color:white;
-  color: #926239 ;
-}
+
 .center {
   text-align: center;
 }
 
-.section1,
-.section2 {
-  padding: 3vh;
+.pouring1,
+.pouring2 {
+  padding: 2%;
   font-size: 15px;
+}
+
+.remove-spaces{
+  font-size: 0;
 }
