@@ -20,10 +20,12 @@
   padding-top: 35vh;
 }
 
+.for-main-header {
+  line-height: 1.2 ;
+}
 
 .concomitant-header-text {
   font-size: 20px;
-  line-height: 1.2 ;
 }
 
 .button-header {
